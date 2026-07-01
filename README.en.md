@@ -36,7 +36,7 @@ I have worked on payment and subscription flows, point ledgers, authentication, 
 | Project | Focus | Notes |
 | --- | --- | --- |
 | Studio Subscription | Payment, recurring billing, entitlement | Billing key, retry policy, outbox, scheduled messages |
-| [Point Ledger](https://github.com/Ji-Hyeong/point-ledger-system) | Data consistency, audit trail | Paid/free point separation, append-only events, refund traceability |
+| Point Ledger | Data consistency, audit trail | Paid/free point separation, append-only events, refund traceability |
 | Treasure Event | Redis, traffic, incident response | Ranking migration, reward quantity control, distributed lock |
 | Auth Migration | Performance, compatibility | JWT access token, refresh token rotation, legacy-token coexistence |
 | AI Game Generation | AI orchestration, async processing | Bedrock, image/BGM generation, credits, production usage logs |
@@ -44,5 +44,4 @@ I have worked on payment and subscription flows, point ledgers, authentication, 
 ## Current Focus
 
 - Writing backend case studies from production experience
-- Building public sample projects around payment, ledgers, and concurrency
 - Improving portfolio material for backend engineering roles
