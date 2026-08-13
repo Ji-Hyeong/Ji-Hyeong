@@ -1,30 +1,22 @@
-# 강지형 | Backend Engineer
+# 안녕하세요, 강지형입니다.
 
-Kotlin/Spring Boot와 C#/.NET으로 결제·구독, 인증, AI 콘텐츠 생성, 포인트·광고 보상, 오프라인 행사 시스템을 개발해 왔습니다.
+백엔드 개발자입니다. Kotlin/Spring Boot와 C#/.NET을 주로 사용하고 있습니다.
 
-운영 중 생기는 장애와 데이터 불일치를 원인부터 확인하고, 테스트와 모니터링이 가능한 구조로 고치는 일을 중요하게 생각합니다.
+결제·구독, 인증, 콘텐츠 생성, 포인트, 운영 도구처럼 서비스의 뒤쪽에서 꾸준히 돌아가야 하는 기능을 만들어 왔습니다. 기능을 구현하는 데서 끝내기보다 운영하면서 발견한 문제를 다시 살펴보고, 더 단순하고 안전한 구조로 다듬는 과정을 좋아합니다.
 
-[포트폴리오](https://calico-dolomite-4bc.notion.site/Backend-Engineer-3b133406e7178119a485c71ba17edb8d) · [이메일](mailto:wlgud30@gmail.com)
+궁금한 기술은 작은 예제와 테스트로 직접 확인하고, 나중에 다시 볼 수 있도록 기록하는 편입니다.
 
-## 실무에서 다룬 문제
+## 관심 있는 것
 
-- 수기로 관리하던 유료 이용을 채널 요금제와 정기결제 기능으로 전환했습니다.
-- 약 3천 명이 참여한 오프라인 행사에서 랭킹 장애를 Redis Sorted Set으로 전환해 약 30분 안에 복구했습니다.
-- 난수 토큰 인증을 JWT와 Refresh Token Rotation 방식으로 바꿔 대부분의 API 응답 시간을 150~250ms 줄였습니다.
-- AI 게임 생성 과정의 장시간 외부 호출, 데이터 저장 순서와 실패 시 크레딧 취소를 비동기 작업으로 처리했습니다.
+- 데이터 정합성과 메시지 처리
+- 동시성, 캐시, 성능
+- 인증과 권한
+- 운영 문제를 테스트로 재현하는 일
 
-실무 프로젝트의 구조와 결과는 [포트폴리오](https://calico-dolomite-4bc.notion.site/Backend-Engineer-3b133406e7178119a485c71ba17edb8d)에 정리했습니다.
+## 기록
 
-## 공개 저장소
+- [backend-study](https://github.com/Ji-Hyeong/backend-study) — 궁금했던 백엔드 동작을 작은 애플리케이션과 테스트로 확인합니다.
+- [clean-architecture-study](https://github.com/Ji-Hyeong/clean-architecture-study) — 멀티 모듈에서 의존성 경계를 나누며 정리한 기록입니다.
+- [포트폴리오](https://calico-dolomite-4bc.notion.site/Backend-Engineer-3b133406e7178119a485c71ba17edb8d) — 지금까지 만들고 운영한 것들을 정리했습니다.
 
-| 저장소 | 내용 |
-| --- | --- |
-| [backend-study](https://github.com/Ji-Hyeong/backend-study) | 트랜잭션, 외부 결제, Outbox/Inbox, 동시성, 캐시, JWT/OIDC를 작은 애플리케이션과 테스트로 재현한 저장소 |
-| [clean-architecture-study](https://github.com/Ji-Hyeong/clean-architecture-study) | Kotlin 멀티 모듈에서 도메인·애플리케이션·인프라·API 의존성을 분리한 학습 프로젝트 |
-
-## 사용 기술
-
-- **Backend** Kotlin, Java, C#, Spring Boot, .NET
-- **Data** PostgreSQL, MSSQL, MySQL, Redis, JPA, QueryDSL
-- **Platform** AWS, Azure, Azure Service Bus, Docker, Kafka, Quartz
-- **Testing** JUnit 5, Kotest, Testcontainers, WireMock
+[이메일](mailto:wlgud30@gmail.com)
