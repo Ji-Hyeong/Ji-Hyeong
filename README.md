@@ -21,7 +21,6 @@ Kotlin/Spring Boot와 C#/.NET으로 결제·구독, 인증, AI 콘텐츠 생성,
 | --- | --- |
 | [backend-study](https://github.com/Ji-Hyeong/backend-study) | 트랜잭션, 외부 결제, Outbox/Inbox, 동시성, 캐시, JWT/OIDC를 작은 애플리케이션과 테스트로 재현한 저장소 |
 | [clean-architecture-study](https://github.com/Ji-Hyeong/clean-architecture-study) | Kotlin 멀티 모듈에서 도메인·애플리케이션·인프라·API 의존성을 분리한 학습 프로젝트 |
-| [my-blog](https://github.com/Ji-Hyeong/my-blog) | 이력과 기술 기록을 제공하는 React/Vite 기반 개인 사이트 |
 
 ## 사용 기술
 
